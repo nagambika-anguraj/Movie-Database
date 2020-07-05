@@ -1,0 +1,12 @@
+.MoviePicture img{
+    width: 40%;
+    height: auto;
+    
+}
+
+@media (max-width: 650px){
+    .MoviePicture img{
+        width: 100%;
+        margin-top: 50px
+    }
+}
