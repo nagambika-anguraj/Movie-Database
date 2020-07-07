@@ -2,7 +2,7 @@
 
 Search for any movie you want by entering your search keyword in the search bar.
 
-# Built with React, React-router and OMDb API.
+## Built with React, React-router and OMDb API.
 
 Please find below the website's hosted website URL.
 
