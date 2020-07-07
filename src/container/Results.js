@@ -27,7 +27,7 @@ class Results extends Component{
         }) 
         
         for(var i=1; i< 4; i++){
-            axios.get('http://www.omdbapi.com/?apikey=b9bd48a6&s=' + this.state.keyword + "&page=" +i)
+            axios.get('https://www.omdbapi.com/?apikey=b9bd48a6&s=' + this.state.keyword + "&page=" +i)
             .then(response => {
                      var  results = response.data.Search.map(movie => {
                        return  { 
@@ -53,7 +53,7 @@ class Results extends Component{
     movieSelected = (id) => {
        // alert("Selected Movie IMDB ID === "+id)
        console.log(id)
-       axios.get('http://www.omdbapi.com/?apikey=b9bd48a6&i='+id)
+       axios.get('https://www.omdbapi.com/?apikey=b9bd48a6&i='+id)
          .then(response => {
              var result = {
                 title: response.data.Title,
